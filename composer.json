@@ -1,0 +1,18 @@
+{
+    "name": "damianlewis/octoberdusk-plugin",
+    "description": "Enables the use of Laravel Dusk for OctoberCMS",
+    "type": "october-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Damian Lewis",
+            "email": "damian@damianlewis.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "october/system": ">=1.0.420",
+        "composer/installers": "~1.0",
+        "laravel/dusk": "~2.0"
+    }
+}
