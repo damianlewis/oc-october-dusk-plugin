@@ -16,6 +16,9 @@
         "laravel/dusk": "~2.0"
     },
     "autoload": {
+        "classmap": [
+            "traits/CreatesApplication.php"
+        ],
         "psr-4": {
             "Tests\\": "../../../tests/"
         }
