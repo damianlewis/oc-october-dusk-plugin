@@ -1,6 +1,6 @@
 <?php
 
-namespace DamianLewis\OctoberDusk;
+namespace DamianLewis\OctoberTesting;
 
 use App;
 use Laravel\Dusk\DuskServiceProvider;

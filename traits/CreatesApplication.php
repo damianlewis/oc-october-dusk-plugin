@@ -2,6 +2,7 @@
 
 namespace Tests;
 
+use Config;
 use Illuminate\Contracts\Console\Kernel;
 
 /**
@@ -23,6 +24,11 @@ trait CreatesApplication
     {
         $app = require __DIR__.'/../../../../bootstrap/app.php';
         $app->make(Kernel::class)->bootstrap();
+
+        /*
+         * Modify the plugin path away from the test context
+         */
+        $app->setPluginsPath(realpath(base_path().Config::get('cms.pluginsPath')));
 
         return $app;
     }

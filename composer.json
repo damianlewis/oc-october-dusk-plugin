@@ -1,6 +1,6 @@
 {
-    "name": "damianlewis/octoberdusk-plugin",
-    "description": "Enables the use of Laravel Dusk for OctoberCMS",
+    "name": "damianlewis/octobertesting-plugin",
+    "description": "Enables OctoberCMS to use Laravel's testing frameworks",
     "type": "october-plugin",
     "license": "MIT",
     "authors": [
@@ -17,6 +17,7 @@
     },
     "autoload": {
         "classmap": [
+            "classes/PluginTestCase.php",
             "traits/CreatesApplication.php"
         ],
         "psr-4": {
