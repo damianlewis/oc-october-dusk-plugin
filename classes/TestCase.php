@@ -3,6 +3,7 @@
 namespace Laravel\Dusk;
 
 use Closure;
+use DamianLewis\OctoberTesting\Concerns\ProvidesBrowser;
 use DamianLewis\OctoberTesting\InitialiseOctober;
 use Exception;
 use Throwable;
@@ -23,7 +24,7 @@ use Illuminate\Foundation\Testing\TestCase as FoundationTestCase;
  */
 abstract class TestCase extends FoundationTestCase
 {
-    use Concerns\ProvidesBrowser,
+    use ProvidesBrowser,
         SupportsChrome,
         InitialiseOctober;
 
