@@ -17,8 +17,14 @@
     },
     "autoload": {
         "classmap": [
+            "classes/Browser.php",
+            "classes/TestCase.php",
             "classes/PluginTestCase.php",
-            "traits/CreatesApplication.php"
+            "traits/CreatesApplication.php",
+            "traits/InitialiseOctober.php",
+            "traits/concerns/InteractsWithOctoberAuthentication.php",
+            "traits/concerns/MakesOctoberAssertions.php",
+            "traits/concerns/ProvidesBrowser.php"
         ],
         "psr-4": {
             "Tests\\": "../../../tests/"
