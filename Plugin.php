@@ -11,8 +11,8 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name' => 'October Dusk',
-            'description' => 'Enables the use of Laravel Dusk for OctoberCMS',
+            'name' => 'October Testing',
+            'description' => 'Enables the use of the Laravel testing frameworks within OctoberCMS',
             'author' => 'Damian Lewis',
             'icon' => 'icon-check-square-o',
         ];

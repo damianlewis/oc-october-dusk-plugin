@@ -1,5 +1,5 @@
 # October Testing
-Enables the use of the Laravel testing framework within OctoberCMS.
+Enables the use of the Laravel testing frameworks within OctoberCMS.
 
 ## Usage
 
