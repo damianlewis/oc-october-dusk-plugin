@@ -1,12 +1,12 @@
 # October Testing
-Enables the use of the Laravel testing frameworks within OctoberCMS.
+Enables the use of the Laravel testing frameworks within October CMS.
 
 ## Usage
 
 ### Installation
 Install via Composer:
 ```bash
-composer require --dev damianlewis/octobertesting-plugin
+composer require damianlewis/oc-octobertesting-plugin --dev
 ```
 
 ### Plugin Feature & Unit Tests
