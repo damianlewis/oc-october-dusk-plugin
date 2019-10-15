@@ -1,18 +1,19 @@
 {
-    "name": "damianlewis/octobertesting-plugin",
-    "description": "Enables OctoberCMS to use Laravel's testing frameworks",
+    "name": "damianlewis/oc-octobertesting-plugin",
+    "description": "Enables Laravel's testing frameworks for October CMS",
     "type": "october-plugin",
     "license": "MIT",
     "authors": [
         {
             "name": "Damian Lewis",
-            "email": "damian@damianlewis.co.uk"
+            "email": "damian@damianlewis.co.uk",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": ">=7.0",
-        "october/system": ">=1.0.420",
         "composer/installers": "~1.0",
+        "october/system": ">=1.0.420",
         "laravel/dusk": "~2.0"
     },
     "autoload": {
